@@ -47,7 +47,7 @@ theme.
 
 
 */
-@import url("https://fonts.googleapis.com/css?family=Dancing+Script|Fjalla+One|Poppins:400,600,800&subset=latin-ext");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* BODY */
 * {
   outline: none !important;
@@ -56,7 +56,7 @@ theme.
 body {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
@@ -113,11 +113,13 @@ section {
   line-height: 1;
 }
 
-.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-car .odometer-digit {
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-car .odometer-digit {
   padding: 0;
 }
 
-.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
   left: 0;
 }
 
@@ -179,7 +181,7 @@ section {
   bottom: 0;
   z-index: 11;
   overflow: hidden;
-  background: #301B44;
+  background: #301b44;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   transition: all 0.5s ease;
@@ -193,7 +195,7 @@ section {
   height: 100%;
   position: absolute;
   bottom: 0;
-  background: #733FAB;
+  background: #733fab;
   z-index: 2;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -244,7 +246,7 @@ section {
   display: inline-block;
   transform: translateY(10px);
   color: #fff;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -527,7 +529,7 @@ section {
 .navigation-menu .inner blockquote {
   display: block;
   font-size: 2vw;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #01f7b6;
   opacity: 0;
@@ -579,7 +581,7 @@ section {
   left: 0;
   width: 100%;
   height: 1px;
-  background: #7ED907;
+  background: #7ed907;
   z-index: 0;
 }
 .hamburger span:nth-child(1) {
@@ -595,7 +597,8 @@ section {
   right: 0;
   left: auto;
 }
-.hamburger span:before, .hamburger span:after {
+.hamburger span:before,
+.hamburger span:after {
   position: absolute;
   content: "";
   display: block;
@@ -612,7 +615,7 @@ section {
 }
 .hamburger span:after {
   z-index: 2;
-  background: #7ED907;
+  background: #7ed907;
   transition: all 0.15s linear 0.3s;
 }
 .hamburger span:nth-child(2):before {
@@ -631,7 +634,8 @@ section {
 .hamburger:hover span {
   width: 100% !important;
 }
-.hamburger:hover span:after, .hamburger:hover span:before {
+.hamburger:hover span:after,
+.hamburger:hover span:before {
   width: 100%;
   left: 0;
   right: auto;
@@ -760,6 +764,7 @@ section {
 .header .container {
   position: relative;
   z-index: 2;
+  margin-left: 15vw;
 }
 .header .container .tagline {
   display: block;
@@ -783,17 +788,18 @@ section {
 }
 .header .container .tagline h6 {
   float: left;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   margin-top: 2px;
   margin-bottom: 0;
+  font-size: 1.1vw;
 }
 .header .container h1 {
   width: 100%;
   float: left;
   font-weight: 800;
-  color: #FFF;
-  font-size: 4vw;
+  color: #fff;
+  font-size: 4.5vw;
   line-height: 1;
 }
 .header .container h1 span {
@@ -923,7 +929,7 @@ section {
 }
 .page-header .container p {
   margin-bottom: 0;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #01f7b6;
 }
 
@@ -938,16 +944,16 @@ header {
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 }
 header .left-side {
-  width: 50%;
-  height: 60px;
+  /* width: 50%;
+  height: 100px; */
   display: flex;
   flex-wrap: wrap;
   align-content: flex-end;
   position: absolute;
-  left: 0;
+  right: 0;
   top: 50%;
-  transform: translateX(-50%) translateY(-50%) rotate(-90deg);
-  margin-left: 30px;
+  transform: translateX(35%) translateY(-50%) rotate(-90deg);
+  margin-left: 200px;
   z-index: 3;
 }
 header .left-side ul {
@@ -963,7 +969,7 @@ header .left-side ul li {
 header .left-side ul li a {
   font-size: 14px;
   color: #fff;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -984,12 +990,13 @@ header .scroll-down {
   z-index: 3;
 }
 header .scroll-down small {
-  width: 98px;
+  width: 115px;
   display: inline-block;
   transform: rotate(-90deg);
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   color: #fff;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 header .scroll-down span {
   display: block;
@@ -1024,7 +1031,7 @@ header .sound span {
   color: #fff;
   font-size: 14px;
   margin-right: 10px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 header .sound .equalizer {
   float: left;
@@ -1043,8 +1050,8 @@ header .sound .equalizer .holder {
   top: 25px;
   padding: 20px 40px;
   color: #fff;
-  font-family: "Fjalla One", sans-serif;
-  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
   z-index: 10;
   transform: translateY(-130%);
   -webkit-transition: all 0.5s ease;
@@ -1061,6 +1068,7 @@ header .sound .equalizer .holder {
 .navbar .left {
   width: 30%;
   margin-left: 0;
+  font-size: 20px;
 }
 .navbar .left a {
   position: relative;
@@ -1084,7 +1092,7 @@ header .sound .equalizer .holder {
   float: left;
 }
 .navbar .logo a img {
-  height: 80px;
+  height: 60px;
 }
 .navbar .right {
   width: 30%;
@@ -1110,6 +1118,7 @@ header .sound .equalizer .holder {
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
   border-bottom: 2px solid transparent;
+  font-size: 16px;
 }
 .navbar .right ul li a:hover {
   padding-bottom: 1px;
@@ -1169,7 +1178,7 @@ header .sound .equalizer .holder {
   width: 100%;
   height: 1px;
   float: right;
-  background: #7ED907;
+  background: #7ed907;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -1181,7 +1190,7 @@ header .sound .equalizer .holder {
   width: 0;
   height: 1px;
   float: left;
-  background: #7ED907;
+  background: #7ed907;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -1317,7 +1326,7 @@ header .sound .equalizer .holder {
 }
 .swiper-slider .swiper-slide .slide-inner .container .tagline h6 {
   float: left;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   margin-top: 2px;
   margin-bottom: 0;
@@ -1326,7 +1335,7 @@ header .sound .equalizer .holder {
   width: 100%;
   float: left;
   font-weight: 800;
-  color: #00263F;
+  color: #00263f;
   font-size: 4.6vw;
   line-height: 1;
 }
@@ -1369,10 +1378,14 @@ header .sound .equalizer .holder {
 .swiper-slider .swiper-pagination-bullets .swiper-pagination-bullet:hover {
   opacity: 1;
 }
-.swiper-slider .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+.swiper-slider
+  .swiper-pagination-bullets
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
   text-indent: 0;
 }
-.swiper-slider .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
+.swiper-slider
+  .swiper-pagination-bullets
+  .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
   width: 67px;
   right: -45px;
 }
@@ -1380,7 +1393,7 @@ header .sound .equalizer .holder {
   content: "";
   width: 22px;
   height: 1px;
-  background: #FF6501;
+  background: #ff6501;
   position: absolute;
   top: 10px;
   right: 0;
@@ -1403,7 +1416,7 @@ header .sound .equalizer .holder {
   margin-top: -30px;
   line-height: 1;
   margin-bottom: 40px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -1425,7 +1438,7 @@ header .sound .equalizer .holder {
 }
 .intro h4 {
   margin-top: 5px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   line-height: 40px;
   text-transform: uppercase;
@@ -1461,7 +1474,7 @@ header .sound .equalizer .holder {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
   position: relative;
@@ -1553,7 +1566,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 .services-content-block h2 {
@@ -1574,18 +1587,18 @@ s .process span:before {
 }
 .services-content-block small {
   display: inline-block;
-  font-family: "Fjalla One", sans-serif;
-  color: #7ED907;
+  font-family: "Montserrat", sans-serif;
+  color: #7ed907;
 }
 .services-content-block span {
   width: 50px;
   height: 1px;
-  background: #7ED907;
+  background: #7ed907;
   display: inline-block;
   margin: 5px 15px;
 }
 .services-content-block h4 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 17px;
   margin-bottom: 30px;
 }
@@ -1610,7 +1623,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -1652,20 +1665,20 @@ s .process span:before {
 .works .project-box:last-child {
   padding-bottom: 0;
 }
-.works .project-box:nth-child(2n+2) .custom-link a {
+.works .project-box:nth-child(2n + 2) .custom-link a {
   float: right;
 }
-.works .project-box:nth-child(2n+2) .content-box {
+.works .project-box:nth-child(2n + 2) .content-box {
   order: 1;
   text-align: right;
   padding-left: 0;
   padding-right: 5%;
 }
-.works .project-box:nth-child(2n+2) .content-box h3 span {
+.works .project-box:nth-child(2n + 2) .content-box h3 span {
   margin-left: 0;
   margin-right: -1vw;
 }
-.works .project-box:nth-child(2n+2) figure {
+.works .project-box:nth-child(2n + 2) figure {
   order: 2;
 }
 .works .project-box figure {
@@ -1693,7 +1706,7 @@ s .process span:before {
 .works .project-box .content-box .inner small {
   display: block;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 16px;
 }
@@ -1706,7 +1719,7 @@ s .process span:before {
 .works .project-box .content-box .inner h3 span {
   display: block;
   font-size: 8vw;
-  color: #733FAB;
+  color: #733fab;
   margin-left: -0.5vw;
 }
 
@@ -1721,7 +1734,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -1734,7 +1747,7 @@ s .process span:before {
 }
 .works-single h4 {
   margin-top: 5px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   line-height: 40px;
   text-transform: uppercase;
@@ -1745,7 +1758,7 @@ s .process span:before {
 }
 .works-single h5 {
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
   margin-top: 10px;
@@ -1757,7 +1770,7 @@ s .process span:before {
   color: #01f7b6;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .works-single p {
   margin-bottom: 30px;
@@ -1791,7 +1804,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -1830,7 +1843,7 @@ s .process span:before {
   margin-bottom: 5px;
 }
 .team figure figcaption h4 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -1842,7 +1855,7 @@ s .process span:before {
   display: flex;
   flex-wrap: wrap;
   padding: 150px 0;
-  background: #733FAB;
+  background: #733fab;
   position: relative;
   color: #fff;
 }
@@ -1874,7 +1887,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 .work-with-us h2 {
@@ -1883,7 +1896,7 @@ s .process span:before {
   font-size: 60px;
   line-height: 1.2;
   padding-right: 35%;
-  color:#fff;
+  color: #fff;
 }
 .work-with-us h2:before {
   content: attr(data-text);
@@ -1896,7 +1909,7 @@ s .process span:before {
 }
 .work-with-us h4 {
   margin-top: 5px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   line-height: 40px;
   text-transform: uppercase;
@@ -1909,7 +1922,7 @@ s .process span:before {
   color: #fff;
 }
 
-.work-with-us .custom-link .lines span{
+.work-with-us .custom-link .lines span {
   background: #fff;
 }
 
@@ -1934,7 +1947,7 @@ s .process span:before {
   font-size: 15px;
 }
 .awards .odometer {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
 }
 
@@ -1950,7 +1963,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -1971,7 +1984,7 @@ s .process span:before {
 .clients h4 {
   margin-top: 5px;
   margin-bottom: 40px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   line-height: 40px;
   text-transform: uppercase;
@@ -2015,7 +2028,7 @@ s .process span:before {
   text-align: center;
   font-size: 600;
   opacity: 0;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
 }
 .clients ul li:hover small {
@@ -2052,10 +2065,10 @@ s .process span:before {
   margin-bottom: 30px;
   display: block;
 }
-.news .post:nth-child(2n+2) .post-image {
+.news .post:nth-child(2n + 2) .post-image {
   order: 2;
 }
-.news .post:nth-child(2n+2) .post-content {
+.news .post:nth-child(2n + 2) .post-content {
   padding-left: 0;
 }
 .news .post .post-image {
@@ -2118,7 +2131,7 @@ s .process span:before {
   display: block;
   font-size: 14px;
   opacity: 0.5;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .news .post .post-content .inner .post-title {
   display: block;
@@ -2136,7 +2149,7 @@ s .process span:before {
 }
 .news .post .post-content .inner .post-author {
   display: block;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -2161,7 +2174,7 @@ s .process span:before {
   padding: 40px;
   margin-bottom: 40px;
   background: #01f7b6;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
 }
 .news .post .post-content .inner blockquote:before {
@@ -2203,7 +2216,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -2231,7 +2244,8 @@ s .process span:before {
   display: block;
   margin-bottom: 10px;
 }
-.hello #success, .hello #error {
+.hello #success,
+.hello #error {
   display: none;
   float: left;
 }
@@ -2262,7 +2276,7 @@ s .process span:before {
   border-radius: 0;
   border: none;
 }
-.hello #contact input[type=text] {
+.hello #contact input[type="text"] {
   width: 100%;
   height: 50px;
   background: #fff;
@@ -2276,7 +2290,7 @@ s .process span:before {
   border: 1px solid #eee;
   padding: 20px;
 }
-.hello #contact button[type=submit] {
+.hello #contact button[type="submit"] {
   height: 50px;
   padding: 0 40px;
   font-size: 14px;
@@ -2297,7 +2311,7 @@ s .process span:before {
   display: block;
   line-height: 1;
   margin-bottom: 20px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   opacity: 0.5;
   font-size: 14px;
 }
@@ -2353,7 +2367,7 @@ s .process span:before {
   background: #fff;
 }
 .direction figure figcaption .inner h5 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 26px;
   margin-bottom: 20px;
 }
@@ -2422,9 +2436,9 @@ s .process span:before {
 }
 .footer .footer-bottom h5 {
   margin-bottom: 10px;
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  color: #7ED907;
+  color: #7ed907;
 }
 .footer .footer-bottom ul {
   display: block;
@@ -2461,7 +2475,8 @@ s .process span:before {
 }
 
 /* MEDIUM FIXES */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px),
+  only screen and (max-device-width: 1199px) {
   .swiper-slider .swiper-slide .slide-inner {
     padding: 0 10%;
   }
@@ -2507,7 +2522,8 @@ s .process span:before {
   }
 }
 /* RESPONSIVE TABLET FIXES */
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
   header {
     min-height: inherit;
   }
@@ -2605,11 +2621,11 @@ s .process span:before {
     font-size: 44px;
   }
 
-  .news .post:nth-child(2n+2) .post-image {
+  .news .post:nth-child(2n + 2) .post-image {
     order: 0;
   }
 
-  .news .post:nth-child(2n+2) .post-content {
+  .news .post:nth-child(2n + 2) .post-content {
     padding: 0 50px;
   }
 
@@ -2635,7 +2651,8 @@ s .process span:before {
   }
 }
 /* RESPONSIVE MOBILE FIXES */
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
   .container {
     padding: 0 30px;
   }
@@ -2874,15 +2891,15 @@ s .process span:before {
     margin-bottom: 20px;
   }
 
-  .works .project-box:nth-child(2n+2) figure {
+  .works .project-box:nth-child(2n + 2) figure {
     order: 0;
   }
 
-  .works .project-box:nth-child(2n+2) .content-box {
+  .works .project-box:nth-child(2n + 2) .content-box {
     text-align: left;
   }
 
-  .works .project-box:nth-child(2n+2) .custom-link a {
+  .works .project-box:nth-child(2n + 2) .custom-link a {
     float: left;
   }
 
@@ -2943,7 +2960,7 @@ s .process span:before {
     padding: 0;
   }
 
-  .news .post:nth-child(2n+2) .post-content {
+  .news .post:nth-child(2n + 2) .post-content {
     padding: 0;
   }
 
