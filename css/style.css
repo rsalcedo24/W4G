@@ -1,14 +1,6 @@
 @charset "UTF-8";
 /*
 
-@Author: Themezinho
-@URL: http://www.themezinho.net
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
-
-
 // Table of contents //
 
 	01.	GOOGLE FONTS
@@ -2805,6 +2797,10 @@ s .process span:before {
   }
 
   .navigation-menu .inner blockquote {
+    display: none;
+  }
+
+  .navigation-menu .left-side {
     display: none;
   }
 
