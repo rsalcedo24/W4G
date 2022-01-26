@@ -387,7 +387,7 @@ section {
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translateX(35%) translateY(-50%) rotate(-90deg);
+  transform: translateX(35%) translateY(300%) rotate(-90deg);
   margin-left: 200px;
   z-index: 10;
 }
@@ -843,7 +843,7 @@ section {
   line-height: 1;
   margin-bottom: 5%;
 }
-.header .container h1 span {
+.header .container h1 #outlined {
   -webkit-text-stroke-width: 1px;
   /* transform: translateY(-15%);
   margin-left: 4%;
@@ -851,6 +851,15 @@ section {
   -webkit-text-stroke-color: #fff;
   color: transparent;
 }
+
+@media only screen and (min-width: 767px),
+  only screen and (min-device-width: 767px) {
+  .header .container h1 #line-2::before {
+    content: "\a";
+    white-space: pre;
+  }
+}
+
 .header .container .slide-btn {
   float: left;
 }
@@ -993,7 +1002,7 @@ header .left-side {
   position: absolute;
   right: 0;
   top: 50%;
-  transform: translateX(35%) translateY(-50%) rotate(-90deg);
+  transform: translateX(35%) translateY(300%) rotate(-90deg);
   margin-left: 200px;
   z-index: 10;
 }
@@ -2437,7 +2446,7 @@ s .process span:before {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 100px 0;
-  background: #301B44;
+  background: #301b44;
   color: #fff;
 }
 .footer .footer-quote {
@@ -2702,13 +2711,26 @@ s .process span:before {
     display: none;
   }
 
-  header .scroll-down {
-    left: -10px;
+  .navbar .left {
+    font-size: 14px;
+  }
+  .navbar .right .hamburger-menu {
+    font-size: 14px;
+  }
+  .navbar .logo a img {
+    height: 40px;
   }
 
-  header .sound {
-    right: 30px;
-    bottom: 30px;
+  header .scroll-down {
+    left: -10px;
+    font-size: 14px;
+  }
+  .header .container .tagline {
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .header .container .tagline h6 {
+    font-size: 12px;
   }
 
   .header {
@@ -2787,7 +2809,7 @@ s .process span:before {
   }
 
   .navbar {
-    padding: 20px 30px;
+    padding: 20px 10px;
   }
 
   .navbar .right ul {
@@ -2797,13 +2819,17 @@ s .process span:before {
   .navbar .right .hamburger-menu {
     margin-left: auto;
   }
+  .header .container {
+    margin-left: 30px;
+    padding: 0 20px;
+  }
 
   header .left-side {
     display: none;
   }
 
   .header .container h1 {
-    font-size: 20vw;
+    font-size: 10vw;
   }
 
   .header .container h1 span {
