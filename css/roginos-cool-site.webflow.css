@@ -2373,11 +2373,11 @@ figcaption {
 }
 
 .title-3 {
-  font-size: 30px;
+  font-size: 34px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: initial;
 }
 
 .text-field {
@@ -2658,7 +2658,7 @@ figcaption {
 }
 
 .margin-60px {
-  margin-top: 60px;
+  margin-top: 120px;
 }
 
 .title-1 {
@@ -2818,7 +2818,7 @@ figcaption {
 }
 
 .title-2 {
-  font-size: 60px;
+  font-size: 64px;
   line-height: 1.1;
   font-weight: 500;
   text-transform: none;
@@ -3650,6 +3650,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  margin-left: 0;
 }
 
 .max-w-width._3 {
@@ -4921,6 +4922,7 @@ figcaption {
 .sub-heading {
   font-size: 48px;
   line-height: 75px;
+  margin-bottom: 40px;
 }
 
 .sub-heading.light {
@@ -5149,7 +5151,7 @@ figcaption {
   direction: ltr;
   font-family: Montserrat, sans-serif;
   color: #000;
-  font-size: 24px;
+  font-size: 34px;
   line-height: 2.1em;
   font-weight: 300;
   letter-spacing: 0.02em;
@@ -6478,6 +6480,10 @@ figcaption {
     grid-template-columns: 1.75fr;
     -ms-grid-rows: auto auto auto auto auto;
     grid-template-rows: auto auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .grid-8 {
@@ -6783,7 +6789,7 @@ figcaption {
   -ms-grid-row-span: 1;
   grid-row-end: span 1;
   -ms-grid-row-align: start;
-  align-self: start;
+  align-self: center;
 }
 
 #w-node-_8a85fa75-4708-3097-e000-bfe999dd4757-8b950562 {
@@ -7129,6 +7135,10 @@ figcaption {
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   #w-node-c945e812-0bd7-9782-4a46-2feda60c1a84-26950534 {
@@ -7140,6 +7150,10 @@ figcaption {
     grid-row-start: 2;
     -ms-grid-row-span: 1;
     grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   #w-node-_18c35c72-fa2d-a673-8aee-f14fda2911d5-26950534 {
@@ -7151,6 +7165,10 @@ figcaption {
     grid-row-start: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   #w-node-_439e18ec-6a96-c3d0-7139-173181b8bb07-26950534 {
@@ -7166,6 +7184,10 @@ figcaption {
     justify-self: auto;
     -ms-grid-row-align: auto;
     align-self: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   #w-node-_12514b4a-f23a-0f72-ccae-a117561ac94b-561ac947 {
