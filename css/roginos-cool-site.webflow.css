@@ -3524,27 +3524,38 @@ figcaption {
 }
 
 .background-overlay._3 {
-  background-image: url('../images/nnasoji-1.jpeg'), linear-gradient(146deg, #00263f, #00263f 32%, rgba(11, 158, 255, 0.54) 58%, #fff);
+  background-image: url('../images/nnasoji-1.jpeg');
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .background-overlay._4 {
-  background-image: url('../images/menu-5.jpg');
-  opacity: 0.6;
+  background-image: url('../images/ren-2.jpeg');
+  background-position: 50% 100%, 0px 0px;
+  background-size: cover, auto;
+  opacity: 0.5;
 }
 
 .background-overlay._5 {
-  background-image: url('../images/menu-3.jpg');
+  background-image: url('../images/diaz-2.jpeg');
+  background-position: 50% 100%, 0px 0px;
+  background-size: cover, auto;
+  opacity: 0.5;
 }
 
 .background-overlay._6 {
-  background-image: url('../images/menu-1.jpg');
+  background-image: url('../images/ambia-2.jpeg');
+  background-position: 50% 100%, 0px 0px;
+  background-size: cover, auto;
+  opacity: 0.5;
 }
 
 .background-overlay._7 {
-  opacity: 0.6;
+  background-image: url('../images/sassy-2.jpeg');
+  background-position: 50% 100%, 0px 0px;
+  background-size: cover, auto;
+  opacity: 0.5;
 }
 
 .subhead {
