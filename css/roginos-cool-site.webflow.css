@@ -2582,7 +2582,8 @@ figcaption {
   padding: 10px;
   border-style: solid;
   border-width: 1px;
-  border-color: hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.2);
+  border-color: hsla(0, 0%, 100%, 0.3) hsla(0, 0%, 100%, 0.3)
+    hsla(0, 0%, 100%, 0.2);
   border-radius: 2px;
   background-color: #000;
 }
@@ -3514,7 +3515,13 @@ figcaption {
   top: 0%;
   right: 0%;
   bottom: 0%;
-  background-image: linear-gradient(146deg, #00263f, #00263f 32%, rgba(11, 158, 255, 0.54) 58%, #fff);
+  background-image: linear-gradient(
+    146deg,
+    #00263f,
+    #00263f 32%,
+    rgba(11, 158, 255, 0.54) 58%,
+    #fff
+  );
   opacity: 0.8;
 }
 
@@ -3524,35 +3531,35 @@ figcaption {
 }
 
 .background-overlay._3 {
-  background-image: url('../images/nnasoji-1.jpeg');
+  background-image: url("../images/nnasoji-1.jpeg");
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
   opacity: 0.5;
 }
 
 .background-overlay._4 {
-  background-image: url('../images/ren-2.jpeg');
+  background-image: url("../images/ren-2.jpeg");
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
   opacity: 0.5;
 }
 
 .background-overlay._5 {
-  background-image: url('../images/diaz-2.jpeg');
+  background-image: url("../images/diaz-2.jpeg");
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
   opacity: 0.5;
 }
 
 .background-overlay._6 {
-  background-image: url('../images/ambia-2.jpeg');
+  background-image: url("../images/ambia-2.jpeg");
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
   opacity: 0.5;
 }
 
 .background-overlay._7 {
-  background-image: url('../images/sassy-2.jpeg');
+  background-image: url("../images/sassy-2.jpeg");
   background-position: 50% 100%, 0px 0px;
   background-size: cover, auto;
   opacity: 0.5;
@@ -3770,8 +3777,6 @@ figcaption {
   right: auto;
   bottom: auto;
   margin-top: 40px;
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
   -webkit-transform: translate(-50%, 0px);
   -ms-transform: translate(-50%, 0px);
   transform: translate(-50%, 0px);
@@ -4109,18 +4114,18 @@ figcaption {
   width: 430px;
   height: 500px;
   margin-right: auto;
-  background-image: url('../images/service-1.jpg');
+  background-image: url("../images/service-1.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .service-image._2 {
-  background-image: url('../images/service-2.jpg');
+  background-image: url("../images/service-2.jpg");
 }
 
 .service-image._3 {
-  background-image: url('../images/service-3.jpg');
+  background-image: url("../images/service-3.jpg");
 }
 
 .services-grid {
@@ -4601,18 +4606,18 @@ figcaption {
   margin-right: auto;
   margin-bottom: 25px;
   margin-left: auto;
-  background-image: url('../images/team-4.jpg');
+  background-image: url("../images/team-4.jpg");
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .team-photo._3 {
-  background-image: url('../images/team-3.jpg');
+  background-image: url("../images/team-3.jpg");
 }
 
 .team-photo._2 {
-  background-image: url('../images/team-2.jpg');
+  background-image: url("../images/team-2.jpg");
 }
 
 .project-grid {
@@ -4697,7 +4702,7 @@ figcaption {
   border-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.3);
   border-radius: 100%;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5000,7 +5005,8 @@ figcaption {
 
 .grid-2 {
   grid-row-gap: 16px;
-  grid-template-areas: "Area Area-2"
+  grid-template-areas:
+    "Area Area-2"
     "Area Area-2"
     "Area Area-2"
     "Area Area-2"
@@ -5014,7 +5020,8 @@ figcaption {
     "Area-9 .";
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px auto;
+  -ms-grid-rows: auto 16px auto 16px auto 16px auto 16px auto 16px auto 16px
+    auto 16px auto 16px auto 16px auto 16px auto 16px auto;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
@@ -5022,7 +5029,8 @@ figcaption {
   margin-bottom: 50px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto auto
+    auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 }
 
@@ -5236,19 +5244,19 @@ figcaption {
 .thumbnail-left {
   width: 100%;
   height: 600px;
-  background-image: url('../images/service-1.jpg');
+  background-image: url("../images/service-1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .thumbnail-left._1 {
-  background-image: url('../images/nnasoji-2.jpeg');
+  background-image: url("../images/nnasoji-2.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .thumbnail-left._3 {
-  background-image: url('../images/sassy-1.jpeg');
+  background-image: url("../images/sassy-1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -5256,25 +5264,25 @@ figcaption {
 .thumbnail-right {
   width: 100%;
   height: 400px;
-  background-image: url('../images/blog-1.jpg');
+  background-image: url("../images/blog-1.jpg");
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .thumbnail-right._2 {
-  background-image: url('../images/ren-1.jpeg');
+  background-image: url("../images/ren-1.jpeg");
   background-position: 0% 50%;
   background-size: cover;
 }
 
 .thumbnail-right._4 {
-  background-image: url('../images/ambia-1.jpeg');
+  background-image: url("../images/ambia-1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .thumbnail-right._5 {
-  background-image: url('../images/diaz-1.jpeg');
+  background-image: url("../images/diaz-1.jpeg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -7521,4 +7529,3 @@ figcaption {
     grid-row-start: 4;
   }
 }
-
