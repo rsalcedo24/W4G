@@ -6665,9 +6665,9 @@ figcaption {
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
   -ms-grid-row: span 8;
-  grid-row-start: span 8;
+  grid-row-start: 2;
   -ms-grid-row-span: 8;
-  grid-row-end: span 8;
+  grid-row-end: 9;
 }
 
 #w-node-_358ca887-2c84-69b6-7642-6404bc205ec3-26950534 {
@@ -6709,9 +6709,9 @@ figcaption {
   -ms-grid-column-span: 1;
   grid-column-end: 3;
   -ms-grid-row: 13;
-  grid-row-start: 13;
+  grid-row-start: 7;
   -ms-grid-row-span: 5;
-  grid-row-end: 18;
+  grid-row-end: 12;
 }
 
 #w-node-b1fc6b33-710b-356a-1405-a552fa6fe188-26950534 {
